@@ -32,3 +32,9 @@ document.getElementById('submit-btn').addEventListener('click', function () {
         document.getElementById('matched-notify').style.display = 'none';
     }
 });
+
+// clear Pin
+function clearPin(){
+    const typedPinCode = document.getElementById('pin-type-field');
+    typedPinCode.value = "";
+}

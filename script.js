@@ -15,7 +15,7 @@ function pressKey(key) {
 }
 
 
-// check pin is matched or not
+// check pin is matched or not by submit button
 document.getElementById('submit-btn').addEventListener('click', function () {
     const pinCode = document.getElementById('pin-input-field');
     const typedPinCode = document.getElementById('pin-type-field');
